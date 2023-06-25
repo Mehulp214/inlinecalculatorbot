@@ -1,7 +1,9 @@
 import telebot
 from telebot import types
 bot = telebot.TeleBot("6112075897:AAHIN0_uYvGh9UGpzVkHShJ0JmNEpj7Gm54")
+bot.delete_webhook()
 
+# Rest of your code...
 # Define the '/start' command
 
 
@@ -128,6 +130,8 @@ def handle_text(message):
             bot.delete_message(chat_id=message.chat.id,message_id=message.message_id)
     except:
         bot.reply_to(message, "<b>Please contact @kswami9 for a error</b>",parse_mode="HTML")
+
+
 
 # Start the bot
 bot.polling(non_stop=True)
