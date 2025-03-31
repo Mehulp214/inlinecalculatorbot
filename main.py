@@ -136,7 +136,7 @@
 # # Start the bot
 # bot.polling(non_stop=True)
 
-from pyrogram import Client, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import Client, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.types import CallbackQuery
 import logging
 
