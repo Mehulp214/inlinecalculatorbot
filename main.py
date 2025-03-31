@@ -133,8 +133,8 @@ def handle_text(message):
 
 
 
-# # # Start the bot
-# # bot.polling(non_stop=True)
+# Start the bot
+bot.polling(non_stop=True)
 
 # from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # from pyrogram import Client
