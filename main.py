@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-bot = telebot.TeleBot("6112075897:AAHIN0_uYvGh9UGpzVkHShJ0JmNEpj7Gm54")
+bot = telebot.TeleBot("7335432995:AAENNEGS3lokRPEsP3RYpxkHIQjzv5tjwY0")
 bot.delete_webhook()
 
 # Rest of your code...
